@@ -3,7 +3,7 @@ name: Python Package using Conda on Self-hosted Runner
 on: [push]
 
 jobs:
-  build-linux:
+  build:
     runs-on: self-hosted # 更新为使用自托管运行器
     steps:
     - uses: actions/checkout@v3
