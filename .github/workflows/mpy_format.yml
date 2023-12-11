@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   test:
-    runs-on: ubuntu-20.04 # use 20.04 to get python2
+    runs-on: self-hosted
     steps:
     - uses: actions/checkout@v3
     - name: Install packages
